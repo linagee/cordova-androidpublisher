@@ -6,6 +6,6 @@
         <license>Apache 2.0</license>
         <keywords>cordova,publish,android,play store</keywords>
         <platform name="android">
-            <hook type="after_build" src="scripts/androidPublisher.js" />
+            <hook type="after_build" src="lib/androidPublisher.js" />
         </platform>
     </plugin>
