@@ -24,6 +24,7 @@ Generating Keystore
 If you don't yet have a keystore file:
 
 **mkdir -p ~/.androidKeys**
+
 **keytool -genkey -v -keystore ~/.androidKeys/my-release-key.keystore -alias release_key -keyalg RSA -keysize 2048 -validity 10000**
 
 Adding Keystore to your project
@@ -34,6 +35,7 @@ If you don't yet have a keystore defined for your project:
 Edit **myProject/platforms/android/ant.properties** and add the following:
 
 **key.store=~/.androidKeys/my-release-key.keystore**
+
 **key.alias=release_key**
 
 Test generating a release APK
