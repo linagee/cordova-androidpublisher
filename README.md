@@ -45,7 +45,7 @@ A .p12 file will be downloaded. Discard/ignore it. Lets use JSON. Remember what 
 
 Click 'Generate new JSON key'
 
-Save the .json file and remember where you download it to.
+Save the .json file and download/move it to ~/.androidKeys
 
 Delete the old .p12 Certificate Fingerprint (not the JSON one!) Its probably the first one that you'll want to delete.
 
