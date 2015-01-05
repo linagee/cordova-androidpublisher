@@ -5,6 +5,7 @@
         <description>Cordova AndroidPublisher</description>
         <license>Apache 2.0</license>
         <keywords>cordova,publish,android,play store</keywords>
+        <hook type="after_plugin_install" src="lib/androidPublisher_after_plugin_install.js" />
         <platform name="android">
             <hook type="before_build" src="lib/androidPublisher_before_build.js" />
             <hook type="after_build" src="lib/androidPublisher_after_build.js" />
