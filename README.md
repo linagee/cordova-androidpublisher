@@ -16,7 +16,7 @@ Step 0
 
 You did remember to give your project a unique namespace when you created it, right?
 
-Edit myProject/config.xml, change com.exampleprojecthere-12345 into a suitable package name. (com.mydomain.myproject is a good start.)
+Edit myProject/config.xml, change _com.exampleprojecthere-12345_ into a suitable package name. (com.mydomain.myproject is a good start.)
 
 Generating Keystore
 ===================
