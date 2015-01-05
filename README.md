@@ -3,7 +3,7 @@ NOT YET WORKING
 cordova-androidpublisher
 ========================
 
-This Cordova plugin adds a hook to your compile command that allows easy upload of your signed Cordova APK to Google Play Developer Console. This is achieved using the Google Play Developer API. (https://developers.google.com/android-publisher/)
+This Cordova plugin adds a hook to your compile command that allows easy upload of your signed Cordova APK to Google Play Developer Console.
 
 You will need a Google Developer account to upload your apps to the Play Store. https://support.google.com/googleplay/android-developer/answer/113468?hl=en
 
@@ -86,3 +86,9 @@ Inside your project directory:
 **cordova build android --release**
 
 This should generate an APK file: **myProject/platforms/android/ant-build/MyProject-release.apk**
+
+
+How does this work?
+===================
+
+This plugin uses the Google Play Developer API. (https://developers.google.com/android-publisher/)
