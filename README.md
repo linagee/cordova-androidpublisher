@@ -55,7 +55,11 @@ At the left, click 'Settings'
 
 Click 'API access'
 
-Under 'Service Accounts', configure the API key you created previously to be able to upload new APKs.
+Under 'Getting Started', you should see your project name (possibly 'Cordova push APK' if you used that earlier), click 'Link'
+
+Under 'Service Accounts', click 'Grant access', and make sure that 'Manage Alpha & Beta APKs' is checked. Click 'Add user'.
+
+You'll see the User accounts screen come up where you can verify your service account has access.
 
 
 Generating Keystore
@@ -86,6 +90,22 @@ Inside your project directory:
 **cordova build android --release**
 
 This should generate an APK file: **myProject/platforms/android/ant-build/MyProject-release.apk**
+
+Test building and publishing APK
+================================
+
+Inside your project directory:
+
+**cordova build android --publish**
+
+(This will also build using --release but its not necessary as the option is forced.)
+
+Common errors
+=============
+
+No access or refresh token is set. - API key is probably not authenticated on Google Play Developer Console.
+
+No application was found for the given package name. - This tool is only able to upload APKs for existing projects. Please create a project under the Google Play Developer Console (https://play.google.com/apps/publish/) and create an app using the same package name as defined in your Cordova project.
 
 
 How does this work?
