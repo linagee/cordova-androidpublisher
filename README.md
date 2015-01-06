@@ -3,7 +3,7 @@ NOT YET WORKING
 cordova-androidpublisher
 ========================
 
-This Cordova plugin adds a hook to your compile command that allows easy upload of your signed Cordova APK to Google Play Developer Console. Because of a restriction of the Google Play Developer API, you can only update the APK of an app that is already on the Google Play store. (You have to manually do the process the first time.)
+This Cordova plugin adds a hook to your build command that allows easy upload of your signed Cordova APK to Google Play Developer Console. Because of a restriction of the Google Play Developer API, you can only update the APK of an app that is already on the Google Play store. (You have to manually do the process the first time.)
 
 It is fully compatible under Ionic.
 
