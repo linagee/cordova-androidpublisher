@@ -41,7 +41,7 @@ On the right side, under OAuth, click 'Create new Client ID'
 
 Select 'Service Account' and click 'Create Client ID' (this means our script will have a stored authentication credential, not use the tranditional callback/OAuth pages)
 
-A .p12 file will be downloaded. Discard/ignore it. Lets use JSON. Remember what Certificate Fingerprints are there for later.
+A .p12 file will be downloaded. Discard/ignore it. Lets use JSON like a pro. Remember what Certificate Fingerprints are there for later.
 
 Click 'Generate new JSON key'
 
