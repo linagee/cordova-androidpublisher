@@ -17,8 +17,6 @@ It works like this:
 
 Cordova will be forced to build a release build. Apps in Google Play Store are required to be signed. This plugin will complain if it can't generate a signed APK.
 
-This uses the after_build hook.
-
 Cordova Setup
 =============
 
@@ -93,4 +91,5 @@ This should generate an APK file: **myProject/platforms/android/ant-build/MyProj
 How does this work?
 ===================
 
-This plugin uses the Google Play Developer API. (https://developers.google.com/android-publisher/)
+This uses the after_build hook and the Google Play Developer API. (https://developers.google.com/android-publisher/)
+
