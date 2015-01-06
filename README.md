@@ -105,7 +105,7 @@ Common errors
 
 No access or refresh token is set. - API key is probably not authenticated on Google Play Developer Console.
 
-No application was found for the given package name. - This tool is only able to upload APKs for existing projects. Please create a project under the Google Play Developer Console (https://play.google.com/apps/publish/) and create an app using the same package name as defined in your Cordova project.
+No application was found for the given package name. - This tool is only able to upload APKs for existing projects. Please create a project under the Google Play Developer Console (https://play.google.com/apps/publish/) and create an app using the same package name as defined in your Cordova project. (You can use 'Prepare Store Listing'.)
 
 
 How does this work?
