@@ -55,7 +55,11 @@ At the left, click 'Settings'
 
 Click 'API access'
 
-Under 'Service Accounts', configure the API key you created previously to be able to upload new APKs.
+Under 'Getting Started', you should see your project name (possibly 'Cordova push APK' if you used that earlier), click 'Link'
+
+Under 'Service Accounts', click 'Grant access', and make sure that 'Manage Alpha & Beta APKs' is checked. Click 'Add user'.
+
+You'll see the User accounts screen come up where you can verify your service account has access.
 
 
 Generating Keystore
