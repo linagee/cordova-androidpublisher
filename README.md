@@ -78,8 +78,8 @@ Edit **myProject/platforms/android/ant.properties** and add the following:
 
 **key.alias=release_key**
 
-Test generating a release APK
-=============================
+Test generating a signed release APK
+====================================
 
 Inside your project directory:
 
