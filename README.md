@@ -5,6 +5,8 @@ cordova-androidpublisher
 
 This Cordova plugin adds a hook to your compile command that allows easy upload of your signed Cordova APK to Google Play Developer Console.
 
+It is fully compatible under Ionic.
+
 You will need a Google Developer account to upload your apps to the Play Store. https://support.google.com/googleplay/android-developer/answer/113468?hl=en
 
 It works like this:
