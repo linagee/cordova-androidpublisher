@@ -19,6 +19,7 @@
 },
 "license": "Apache",
 "dependencies": {
+"cordova-lib": ""
 "googleapis": ""
 },
 "engines": {
