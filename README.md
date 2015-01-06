@@ -91,6 +91,22 @@ Inside your project directory:
 
 This should generate an APK file: **myProject/platforms/android/ant-build/MyProject-release.apk**
 
+Test building and publishing APK
+================================
+
+Inside your project directory:
+
+**cordova build android --publish**
+
+(This will also build using --release but its not necessary as the option is forced.)
+
+Common errors
+=============
+
+[Error: No access or refresh token is set.] - API key is probably not authenticated on Google Play Developer Console.
+
+No application was found for the given package name - This tool is only able to upload APKs for existing projects. Please create a project under the Google Play Developer Console (https://play.google.com/apps/publish/) and create an app using the same package name as defined in your Cordova project.
+
 
 How does this work?
 ===================
