@@ -13,7 +13,7 @@ It works like this:
 
 **cordova plugin add https://github.com/linagee/cordova-androidpublisher.git**
 
-**cordova build android --release --publish**
+**cordova build android --publish**
 
 Cordova will be forced to build a release build. Apps in Google Play Store are required to be signed. This plugin will complain if it can't generate a signed APK.
 
