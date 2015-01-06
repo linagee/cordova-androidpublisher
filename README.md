@@ -33,7 +33,7 @@ Click 'Create Project' and use a name like 'Cordova push APK' (accept the defaul
 
 Under 'Boost your app with a Google API', click 'Enable an API'
 
-In the 'Filter by API' on the lower right, type in 'google play android' and you should see 'Google Play Android Developer API'. Click Status on the right to turn it On.
+In the 'Filter by API' on the lower right, type in 'google play android' and you should see 'Google Play Android Developer API'. Click on the right to turn it on.
 
 On the left of the screen, click 'Credentials'
 
