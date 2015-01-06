@@ -1,27 +1,30 @@
 {
-"name": "cordova-androidpublisher",
-"version": "0.0.1",
-"author": "Linagee <linagee@gmail.com>",
-"description": "Publish your Cordova Android APKs to Play Store automatically as part of your workflow after building",
-"keywords": [
-"cordova",
-"phonegap",
-"plugins"
-],
-"preferGlobal": true,
-"repository": {
-"type": "git",
-"url": "https://github.com/linagee/cordova-androidpublisher.git"
-},
-"homepage": "https://github.com/linagee/cordova-androidpublisher",
-"bugs": {
-"url": "https://github.com/linagee/cordova-androidpublisher/issues"
-},
-"license": "Apache",
-"dependencies": {
-"googleapis": ""
-},
-"engines": {
-"node": ">=0.8.0"
-}
+  "name": "cordova-androidpublisher",
+  "version": "0.0.1",
+  "author": "Linagee <linagee@gmail.com>",
+  "description": "Publish your Cordova Android APKs to Play Store automatically as part of your workflow after building",
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "plugins"
+  ],
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linagee/cordova-androidpublisher.git"
+  },
+  "homepage": "https://github.com/linagee/cordova-androidpublisher",
+  "bugs": {
+    "url": "https://github.com/linagee/cordova-androidpublisher/issues"
+  },
+  "license": "Apache",
+  "dependencies": {
+    "cordova-lib": "^4.1.2",
+    "googleapis": "^1.0.22",
+    "homedir": "^0.6.0",
+    "prettysize": "0.0.3"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
 }
