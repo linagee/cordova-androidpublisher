@@ -1,5 +1,7 @@
 NOT YET WORKING
 
+1/6/2015 - One final issue remaining (until this is working/alpha) with getting track working correctly
+
 cordova-androidpublisher
 ========================
 
