@@ -19,10 +19,10 @@
   },
   "license": "Apache",
   "dependencies": {
-    "cordova-lib": "^4.1.2",
+    "cordova-lib": "",
     "googleapis": "",
-    "homedir": "^0.6.0",
-    "prettysize": "0.0.3"
+    "homedir": "",
+    "prettysize": ""
   },
   "engines": {
     "node": ">=0.8.0"
