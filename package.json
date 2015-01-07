@@ -20,7 +20,7 @@
   "license": "Apache",
   "dependencies": {
     "cordova-lib": "^4.1.2",
-    "googleapis": "^1.0.22",
+    "googleapis": "",
     "homedir": "^0.6.0",
     "prettysize": "0.0.3"
   },
