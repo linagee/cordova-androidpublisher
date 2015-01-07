@@ -78,7 +78,7 @@ Adding Keystore to your project
 
 If you don't yet have a keystore defined for your project:
 
-Edit **myProject/platforms/android/ant.properties** and add the following:
+Create **myProject/platforms/android/ant.properties** and add the following:
 
 **key.store=~/.androidKeys/my-release-key.keystore**
 
