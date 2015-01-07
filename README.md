@@ -1,6 +1,6 @@
-NOT YET WORKING
+POSSIBLY WORKING
 
-1/6/2015 - One final issue remaining (until this is working/alpha) with getting track working correctly
+1/7/2015 - Looking for a report of this successfully working. Wasn't able to test it myself because of a keystore issue. Please email linagee@gmail.com if you have it working.
 
 cordova-androidpublisher
 ========================
