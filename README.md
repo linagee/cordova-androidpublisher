@@ -80,9 +80,10 @@ If you don't yet have a keystore defined for your project:
 
 Create **myProject/platforms/android/ant.properties** and add the following:
 
-**key.store=~/.androidKeys/my-release-key.keystore**
-
+**key.store=/home/linagee/.androidKeys/my-release-key.keystore**
 **key.alias=release_key**
+
+(Or use /Users/linagee/.androidKeys above if you're on a Mac. It does not support using ~ for the home directory.)
 
 Test generating a signed release APK
 ====================================
