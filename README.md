@@ -10,7 +10,7 @@ You will need a Google Developer account to upload your apps to the Play Store. 
 It works like this:
 
 **cordova plugin add https://github.com/linagee/cordova-androidpublisher.git**
-k
+
 **cordova build android --publish --release**
 
 (TODO) Cordova will be forced to build a release build. Apps in Google Play Store are required to be signed. This plugin will complain if it can't generate a signed APK.
