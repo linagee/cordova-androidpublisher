@@ -14,7 +14,7 @@ You will need a Google Developer account to upload your apps to the Play Store. 
 It works like this:
 
 **cordova plugin add https://github.com/linagee/cordova-androidpublisher.git**
-
+k
 **cordova build android --publish --release**
 
 (TODO) Cordova will be forced to build a release build. Apps in Google Play Store are required to be signed. This plugin will complain if it can't generate a signed APK.
@@ -81,6 +81,7 @@ If you don't yet have a keystore defined for your project:
 Create **myProject/platforms/android/ant.properties** and add the following:
 
 **key.store=/home/linagee/.androidKeys/my-release-key.keystore**
+
 **key.alias=release_key**
 
 (Or use /Users/linagee/.androidKeys above if you're on a Mac. It does not support using ~ for the home directory.)
