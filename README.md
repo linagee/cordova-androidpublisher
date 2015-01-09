@@ -1,7 +1,3 @@
-POSSIBLY WORKING
-
-1/8/2015 - Looking for a report of this successfully working
-
 cordova-androidpublisher
 ========================
 
