@@ -100,9 +100,8 @@ Test building and publishing APK
 
 Inside your project directory:
 
-**cordova build android --publish**
+**cordova build android --publish --release**
 
-(This will also build using --release but its not necessary as the option is forced.)
 
 Common errors
 =============
