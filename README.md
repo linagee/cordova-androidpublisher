@@ -49,6 +49,8 @@ Click 'Generate new JSON key'
 
 Save the .json file and download/move it to ~/.androidKeys
 
+**mv ~/Downloads/WhateverFile.json ~/.androidKeys**
+
 Delete the old .p12 Certificate Fingerprint (not the JSON one!) Its probably the first one in the list.
 
 Go to the Google Play Developer Console: https://play.google.com/apps/publish/
