@@ -1,6 +1,6 @@
 POSSIBLY WORKING
 
-1/7/2015 - Looking for a report of this successfully working. Wasn't able to test it myself because of a keystore issue. Please email linagee@gmail.com if you have it working.
+1/8/2015 - Looking for a report of this successfully working
 
 cordova-androidpublisher
 ========================
