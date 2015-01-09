@@ -102,8 +102,12 @@ Test building and publishing APK
 
 Inside your project directory:
 
-**cordova build android --publish --release**
+**cordova build android --release --publish**
 
+This should build and then upload your APK onto the Google Developer's Console.
+There should be a link at the bottom of the output to go to the right page.
+It should appear nearly instantly in the Google Developer's Console.
+If not, please open an issue and I will do my best to respond.
 
 Common errors
 =============
