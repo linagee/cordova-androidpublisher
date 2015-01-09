@@ -9,6 +9,8 @@ You will need a Google Developer account to upload your apps to the Play Store. 
 
 It works like this:
 
+**cordova platform add android**
+
 **cordova plugin add https://github.com/linagee/cordova-androidpublisher.git**
 
 **cordova build android --publish --release**
