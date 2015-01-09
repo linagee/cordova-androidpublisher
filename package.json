@@ -1,6 +1,6 @@
 {
   "name": "cordova-androidpublisher",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Linagee <linagee@gmail.com>",
   "description": "Publish your Cordova Android APKs to Play Store automatically as part of your workflow after building",
   "keywords": [
