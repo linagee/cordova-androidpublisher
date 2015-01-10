@@ -122,3 +122,7 @@ How does this work?
 
 This uses the after_build hook and the Google Play Developer API. (https://developers.google.com/android-publisher/)
 
+Total hours into this
+=====================
+
+18 hours
