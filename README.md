@@ -1,3 +1,5 @@
+This really needs a screencast demo! If you're interested in helping or prodding me to make one, please contact me!
+
 cordova-androidpublisher
 ========================
 
